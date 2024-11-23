@@ -1,7 +1,6 @@
-
-function Greeting() {
+function Greeting(props) {
   return (
-    <h1>Привет мир!!!</h1>
+    <h2>Привет {props.name}!!!</h2>
   );
 }
 
